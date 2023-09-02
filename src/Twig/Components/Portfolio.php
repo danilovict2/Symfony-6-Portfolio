@@ -43,6 +43,13 @@ final class Portfolio
                 'image' => 'portfolio.png',
                 'github' => 'https://github.com/danilovict2/Symfony-6-Portfolio'
             ],
+            [
+                'category' => ['Symfony', 'Tailwind.css', 'Vue3'],
+                'title' => 'Survey app with Symfony, Tailwindcss and Vue 3',
+                'image' => 'survey.png',
+                'github' => 'https://github.com/danilovict2/Symfony-6-Survey-App'
+            ],
+            
         ];
 
         $this->tabs = array_unique(array_merge(...array_values(array_map(fn($item) => $item['category'], $this->items))));
