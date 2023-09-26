@@ -49,6 +49,12 @@ final class Portfolio
                 'image' => 'survey.png',
                 'github' => 'https://github.com/danilovict2/Symfony-6-Survey-App'
             ],
+            [
+                'category' => ['Symfony', 'Tailwind.css', 'API'],
+                'title' => 'Movie App with Symfony, Tailwindcss and TMDB API',
+                'image' => 'movie-app.png',
+                'github' => 'https://github.com/danilovict2/Symfony-6-Movie-App'
+            ],
             
         ];
 
